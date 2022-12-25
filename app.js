@@ -36,6 +36,7 @@ app.get('/', (req,res) => {
     })
 })
 
+
 app.get("/:id", (req,res) => {
     console.log(req.params)
 
