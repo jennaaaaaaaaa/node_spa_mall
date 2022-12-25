@@ -100,7 +100,6 @@ const goods = [
     res.json({resulte:"success"})
   })
 
-  
   const Goods = require("../schemas/goods.js")
   router.post("/goods/", async (req,res) => {
     const {goodsId, name, thumbnailUrl, category, price} = req.body
